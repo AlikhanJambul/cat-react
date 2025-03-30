@@ -1,0 +1,80 @@
+.card {
+    padding: 25px;
+}
+
+.card__image {
+    margin-bottom: 25px;
+}
+
+.card__title {
+    font-size: 22px;
+    
+    margin-bottom: 10px;
+}
+
+.card__description {
+    font-size: 16px;
+}
+
+.fact {
+    display: flex;
+    justify-content: center;
+}
+
+.card-cat {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 45px;
+
+    margin-bottom: 200px;
+}
+
+.card-cat__img {
+    width: 100%;
+}
+
+.card-cat__title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.card-cat__list {
+    margin-left: 12px;
+}
+
+.card2 {
+    width: 80%;
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.card-cat__size, .card-cat__plos, .card-cat__price {
+    font-size: 14px;
+}
+
+.card-cat__list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+    margin-bottom: 30px;
+}
+
+.card-cat__article {
+    border-radius: 8px;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card2__title {
+    font-size: 36px;
+    font-weight: 700;
+
+    padding-bottom: 36px;
+    padding-top: 36px;
+}
